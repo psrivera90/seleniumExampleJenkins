@@ -18,14 +18,12 @@ public class FreeRangeTest {
         driver = new ChromeDriver();
     }
     
-
     @Test
     public void navegamosAFreeRangeTesters() {
         //Navega a la pagina web
         driver.get("https://www.freerangetesters.com");
     }
 
-    
     @AfterMethod
     public void tearDown() {
         //Cierra el navegador despues de la prueba
